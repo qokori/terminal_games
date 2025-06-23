@@ -13,12 +13,12 @@ while True:
         case '1':
             print("Запускаем.. \n")
             time.sleep(1)
-            call(["python", "shi\\hueta.py"]) #type: ignore
+            call(["python", "sosal-test.py"]) #type: ignore
             break
         case '2':
             print("Запускаем.. \n")
             time.sleep(1)
-            call(["python", "shi\\rng.py"])
+            call(["python", "rng.py"])
             break
         case '3':
             exit()
